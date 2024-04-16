@@ -1,0 +1,10 @@
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse('Welcome to Nemweb!')
+
+def aboutus(request):
+    return HttpResponse('About Us page.')
+
+def contact(request):
+    return HttpResponse('Contact Us page.')
